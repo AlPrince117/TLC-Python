@@ -114,13 +114,13 @@
 
 # QUESTION 8b
 
-name = "Phelim"
-for n in name:
-    print(n, end=":")
+# name = "Phelim"
+# for n in name:
+#     print(n, end=":")
 
 # QUESTION 9
 
-count = 0
+# count = 0
 
 
 # QUESTION 10
