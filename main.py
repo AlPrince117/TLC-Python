@@ -78,8 +78,12 @@
 # print(type(None))
 
 # QUESTION 6
+# from decimal import Decimal
+# print(.1 + .1 + .1)
+# print(Decimal(".1") + Decimal(".1") + Decimal(".1"))
 
 
+# QUESTION 7
 
 # numberOFterms = int(input("How many terms? "))
 #
@@ -103,17 +107,16 @@
 #         n2 = nth
 #         count += 1
 
-# QUESTION 7
-# name = "Phelim"
-# print(name[5])
 
-# QUESTION 8
-
+# QUESTION 8a
 # name = "Phelim"
-# n = 0
-# while n<len(name):
-#     print(name[n], ":")
-#     n += 1
+# print(name[-1])
+
+# QUESTION 8b
+
+name = "Phelim"
+for n in name:
+    print(n, end=":")
 
 # QUESTION 9
 
